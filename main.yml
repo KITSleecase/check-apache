@@ -1,10 +1,8 @@
 ---
 - hosts: raspberry 
-#  remote_user: lee
+
   gather_facts: no
   tasks:
-  #- name: ping all hosts
-   # ping:
 
 #This copys a file from local to host specified
   - name: copy test file
