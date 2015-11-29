@@ -12,4 +12,4 @@
     register: webpage
 
   - fail: msg='service is not happy'
-    when: "'AWESOME' not in webpage.content"
+    when: "'It works!' not in webpage.content"
